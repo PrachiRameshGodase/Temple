@@ -1,25 +1,36 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import "./App.css";
-import AboutUs from "./pages/about/AboutUs";
-import SocialServices from "./pages/socialServices/SocialServices";
-import ContactUs from "./pages/ContactUs/ContactUs";
-import UpComingProjects from "./pages/UpComingProject/UpComingProjects";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import HeroSection from "./Pages/HeroSection/HeroSection";
+import AboutTemple from "./Pages/AboutTemple/AboutTemple";
+import StatsSection from "./Pages/StatsSection/StatsSection";
+// import SocialServices from "./Pages/SocialServices/SocialServices";
+import VoiceOfDevotees from "./Pages/VoiceOfDevotees/VoiceOfDevotees";
+import TempleLocation from "./Pages/TempleLocation/TempleLocation";
+
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/socialServices" element={<SocialServices />} />
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/upcoming-projects" element={<UpComingProjects />} />
-
-
-        {/* <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<NotFound />} /> Catch-all route for 404 */}
-      </Routes>
-    </Router>
+    <div className="app">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route
+            path="/*"
+            element={
+              <>
+                <HeroSection />
+                <AboutTemple />
+                <StatsSection />
+                {/* <SocialServices /> */}
+                <VoiceOfDevotees />
+                <TempleLocation/>
+              </>
+            }
+          />
+        </Routes>
+        {/* <Footer /> */}
+      </Router>
+    </div>
   );
 }
 
