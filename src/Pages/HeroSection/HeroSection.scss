@@ -1,0 +1,76 @@
+.temple-container {
+    
+
+    font-family: Arial, sans-serif;
+ 
+    .imgGod_hero{
+       img{
+        width: 100%;
+        object-fit: cover;
+        height: 722px;
+       }
+    }
+    header {
+        text-align: center;
+
+        .highlight {
+            font-weight: bold;
+            color: #a87c32;
+        }
+
+        p {
+            max-width: 600px;
+            margin: 0 auto 20px;
+            color: #444;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            button {
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+
+                &.contact {
+                    background: #a87c32;
+                    color: white;
+                }
+
+                &.visit {
+                    border: 1px solid #a87c32;
+                    color: #a87c32;
+                }
+            }
+        }
+    }
+
+    .info-sections {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+
+        .info-box {
+            background: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            width: 30%;
+
+            i.icon {
+                font-size: 24px;
+            }
+
+            h3 {
+                margin: 10px 0;
+            }
+
+            a {
+                color: #a87c32;
+                text-decoration: none;
+            }
+        }
+    }
+}
