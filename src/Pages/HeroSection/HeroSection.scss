@@ -248,6 +248,11 @@
           padding-left: 0;
         }
       }
+      .directions{
+        &:hover{
+          color: #59430a;
+        }
+      }
     }
   }
 }

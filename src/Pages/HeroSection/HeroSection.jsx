@@ -43,7 +43,12 @@ const HeroSection = () => {
                         <h3>Location</h3>
                     </div>
                     <p>456 Tech Park, Bengaluru KA 560001 IN</p>
-                    <a href="#">Get directions <ChevronRight /></a>
+                    <a
+                        href="https://maps.google.com?q=Shree+Venkateshwara+Temple,+Bangalore"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="directions"
+                    >Get directions <ChevronRight /></a>
                 </div>
                 <div className="info-box">
                     <div className="icon">
