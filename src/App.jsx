@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HeroSection from "./Pages/HeroSection/HeroSection";
-import AboutTemple from "./pages/AboutTemple/AboutTemple";
+import AboutTemple from "./Pages/AboutTemple/AboutTemple";
 import StatsSection from "./pages/StatsSection/StatsSection";
 import SocialServices from "./pages/socialServices/SocialServices";
 import VoiceOfDevotees from "./pages/VoiceOfDevotees/VoiceOfDevotees";
