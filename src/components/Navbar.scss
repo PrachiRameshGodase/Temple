@@ -195,7 +195,9 @@
                 gap: 15px;
                 justify-content: center;
                 // margin-top: 20px;
-        
+                        @media only screen and (max-width: 1210px) {
+                            display: none;
+                        }
                 button {
                     padding: 10px 20px;
                     font-size: 16px;
@@ -321,8 +323,9 @@
         gap: 1.5rem;
         list-style: none;
         animation: slideDown 0.3s ease forwards;
-        border-radius: 100px;
-
+        // border-radius: 10px;
+        // height: 100vh;
+        // width: 30% !important;
         li {
             a {
                 text-decoration: none;
@@ -330,7 +333,7 @@
             }
         }
 
-        @media (max-width: 950px) {
+        @media (max-width: 1210px) {
             display: none;
             flex-direction: column;
             position: absolute;
@@ -359,7 +362,7 @@
         color: #fff;
         margin-right: 10px;
 
-        @media (max-width: 950px) {
+        @media (max-width: 1210px) {
             display: block;
         }
     }
@@ -368,7 +371,7 @@
         display: flex;
         align-items: center;
 
-        @media (max-width: 950px) {
+        @media (max-width: 1210px) {
             // flex-direction: column;
             display: none;
             // border: 1px solid red;
@@ -425,167 +428,5 @@
         .card_search .search-input {
             width: fit-content;
         }
-    }
-}
-
-// @media only screen and (max-width: 560px) {
-//   .navbar-container .navbar-actions .search-bar {
-//     position: absolute;
-//     /* Fixed to make it overlay */
-//     top: 50px;
-//     left: 80px;
-//     width: 100vw;
-//     /* Full width */
-//     height: 100%;
-//     /* Full height */
-//     background: #ffffff;close-button-nav
-//     z-index: 9999;
-//     /* Bring it to front */
-//     // padding: 20px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//   }
-
-//   close-button-nav {
-//     position: absolute;
-//     top: 10px;
-//     right: 10px;
-//     color: #171717 !important;
-//     font-size: 24px;
-//     cursor: pointer;
-//   }
-
-//   .card_search {
-//     // width: 90%;
-//     // margin-top: 20px;
-//   }
-
-//   .card_search .search-input {
-//     width: 100%;
-//   }
-
-//   .navbar-container {
-//     // border: none;
-//     // overflow-x: hidden !important;
-//   }
-// }
-
-// @media only screen and (max-width: 340px) {
-//   .navbar .navbar-actions .search-bar .card_search .search-button{
-//     width: 60px;
-//       height: 40px;
-//       font-size: 12px;
-//   }
-// }
-
-@media only screen and (max-width: 450px) {
-    .navbar-container .navbar-actions .search-bar {
-        position: absolute;
-        // background: #000;
-        // padding:20px;
-        width: 100%;
-        transform: translateX(55%) !important;
-    }
-
-    .navbar-container .navbar-actions .search-bar .card_search {
-        position: absolute;
-        transform: translateX(-78.9vw) !important;
-        margin-top: 135px;
-        border: 0px;
-        padding: 20px;
-        background: #fff;
-        border-top-left-radius: 0px !important;
-        border-top-right-radius: 0px !important;
-        border-bottom-left-radius: 35px !important;
-        border-bottom-right-radius: 35px !important;
-        width: 90.9vw;
-
-        input {
-            color: #171717 !important;
-        }
-    }
-}
-
-@media only screen and (max-width: 440px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-78.6vw) !important;
-    }
-}
-
-@media only screen and (max-width: 432px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-78.3vw) !important;
-    }
-}
-
-@media only screen and (max-width: 422px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-77.2vw) !important;
-        width: 90.4vw;
-    }
-}
-
-@media only screen and (max-width: 399px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-81.3vw) !important;
-        width: 95vw;
-    }
-}
-
-@media only screen and (max-width: 388px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-81vw) !important;
-        width: 94.8vw;
-    }
-}
-
-@media only screen and (max-width: 385px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-80.6vw) !important;
-        width: 94.8vw;
-    }
-}
-
-@media only screen and (max-width: 376px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-80.3vw) !important;
-        width: 94.6vw;
-    }
-}
-
-@media only screen and (max-width: 364px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-79.5vw) !important;
-        width: 94.6vw;
-    }
-}
-
-@media only screen and (max-width: 357px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-79.1vw) !important;
-        width: 94.4vw;
-    }
-}
-
-@media only screen and (max-width: 346px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-78.5vw) !important;
-        width: 94.3vw;
-    }
-}
-
-@media only screen and (max-width: 337px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-78vw) !important;
-        width: 94.3vw;
-    }
-}
-
-@media only screen and (max-width: 327px) {
-    .navbar-container .navbar-actions .search-bar .card_search {
-        transform: translateX(-77.2vw) !important;
-        width: 94vw;
     }
 }

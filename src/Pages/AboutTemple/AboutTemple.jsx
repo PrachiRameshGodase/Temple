@@ -7,6 +7,7 @@ const AboutTemple = () => {
         <section className="temple-section">
             <div className="content">
                 <h2>About the Temple</h2>
+                <img src={templeImage} alt="Temple" className="image-Temple" />
                 <p>
                     Sri Shirdi Sai Ranga Temple Humesamaramadapalya is located off Mysore
                     Road after Kengeri by Rajarajeshwari Hospital. The main temple

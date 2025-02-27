@@ -4,7 +4,13 @@
   border-radius: 10px;
   margin: auto;
   text-align: left;
-  font-family: "Arial", sans-serif;
+  @media only screen and (max-width: 1400px) {
+    padding: 30px 40px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    padding: 30px;
+  }
 
   h2 {
     font-weight: 600;
@@ -12,6 +18,18 @@
     line-height: 57.6px;
     letter-spacing: -3px;
     color: #59430a;
+    @media only screen and (max-width: 980px) {
+      font-size: 40px;
+      line-height: 40.6px;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 36px;
+      line-height: 40.6px;
+    }
+            @media only screen and (max-width: 470px) {
+              font-size: 30px;
+              line-height: 40px;
+            }
   }
 
   p {
@@ -39,12 +57,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media only screen and (max-width: 980px) {
+      flex-direction: column;
+      align-items: start;
+    }
     h3 {
       font-weight: 700;
       font-size: 32px;
       line-height: 41.6px;
       letter-spacing: 0%;
       color: #000;
+      @media only screen and (max-width: 980px) {
+        font-size: 36px;
+        line-height: 36.6px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        font-size: 28px;
+        line-height: 30.6px;
+      }
+                @media only screen and (max-width: 470px) {
+                  font-size: 24px;
+                  line-height: 30px;
+                }
+      
     }
 
     p {
@@ -63,7 +100,7 @@
       font-weight: 600;
       color: #5a4300;
       text-decoration: none;
-        gap: 5px;
+      gap: 5px;
       &:hover {
         text-decoration: underline;
       }

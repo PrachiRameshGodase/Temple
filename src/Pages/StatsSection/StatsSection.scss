@@ -2,13 +2,32 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   background-image: url("../../assets/home/stats-section-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   gap: 30px;
   // background: #0c0c0c;
-  padding: 50px;
+  padding: 60px;
+  @media only screen and (max-width: 1400px) {
+      padding: 30px 40px;
+    }
+  
+    @media only screen and (max-width: 1000px) {
+      padding: 30px;
+    }
+         @media only screen and (max-width: 600px) {
+           padding: 30px 20px;
+         }
   text-align: start;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  @media only screen and (max-width: 1283px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media only screen and (max-width: 800px) {
+    grid-template-columns: 1fr 1fr ;
+  }
   .stat-item {
     // background: rgba(255, 255, 255, 0.05);
     padding: 20px;
@@ -28,6 +47,10 @@
       letter-spacing: -0.5px;
       margin-bottom: 5px;
       color: #fff;
+        @media only screen and (max-width: 690px) {
+           font-size: 40px;
+           line-height: 40px;
+          }
     }
 
     p {
