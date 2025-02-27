@@ -80,7 +80,9 @@ const AboutUs = () => {
       <div className="snapshots-grid">
         {templeSnapShot?.map((item, index) => (
           <div className="snapshot-card" key={index}>
-            <img src={item.imgUrl} alt={`Temple ${index + 1}`} />
+            <div className="img">
+              <img src={item.imgUrl} alt={`Temple ${index + 1}`} />
+           </div>
           </div>
         ))}
       </div>
