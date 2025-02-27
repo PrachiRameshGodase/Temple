@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./Pages/HeroSection/HeroSection";
 import AboutTemple from "./Pages/AboutTemple/AboutTemple";
 import StatsSection from "./Pages/StatsSection/StatsSection";
-import SocialServices from "./Pages/SocialServices/SocialServices";
+import SocialServices from "./Pages/socialServices/SocialServices";
 import VoiceOfDevotees from "./Pages/VoiceOfDevotees/VoiceOfDevotees";
 import TempleLocation from "./Pages/TempleLocation/TempleLocation";
 import SocialServicesExperiences from "./pages/socialServicesExperiences/socialServicesExperiences";
