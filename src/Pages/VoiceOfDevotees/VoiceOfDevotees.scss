@@ -1,0 +1,107 @@
+.voice-of-devotees {
+    text-align: left;
+    padding: 60px;
+    font-family: "Arial", sans-serif;
+ 
+    .hero_01{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // border: 1px solid red;
+    }
+    h2 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 62px;
+        letter-spacing: -3px;
+        color: #59430A;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0%;
+        margin-bottom: 20px;
+    }
+
+    .testimonials {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .testimonial {
+        // background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        // box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 45%;
+        min-width: 300px;
+
+        .stars {
+            color: #FF5A00;
+            
+            font-size:22px;
+        }
+
+        .gray-star {
+            color: #ff59004a;
+        }
+
+        .review {
+            font-weight: 500;
+                font-size: 20px;
+                line-height: 26px;
+                letter-spacing: -0.2px;
+                color: #090909;
+          
+            margin: 10px 0;
+        }
+
+        .user-info {
+            display: flex;
+            // align-items: center;
+            margin-top: 25px;
+
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+            h4 {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 14px;
+                color: #888;
+            }
+        }
+    }
+
+    .see-all {
+        background: #a38532;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: 0.3s linear;
+        
+            &:hover {
+                box-shadow: 0px 0px 11px 0.1px rgba(0, 0, 0, 0.226);
+                scale: 1.01;
+            }
+        
+            &:active {
+                box-shadow: 0px 0px 11px 0.1px rgba(0, 0, 0, 0.125);
+                scale: 0.95;
+            }
+    }
+}

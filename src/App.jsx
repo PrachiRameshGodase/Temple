@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./Pages/HeroSection/HeroSection";
 import AboutTemple from "./Pages/AboutTemple/AboutTemple";
 import StatsSection from "./Pages/StatsSection/StatsSection";
+import SocialServices from "./Pages/SocialServices/SocialServices";
+import VoiceOfDevotees from "./Pages/VoiceOfDevotees/VoiceOfDevotees";
+import TempleLocation from "./Pages/TempleLocation/TempleLocation";
 
 
 function App() {
@@ -17,7 +20,10 @@ function App() {
               <>
                 <HeroSection />
                 <AboutTemple />
-                <StatsSection/>
+                <StatsSection />
+                <SocialServices />
+                <VoiceOfDevotees />
+                <TempleLocation/>
               </>
             }
           />

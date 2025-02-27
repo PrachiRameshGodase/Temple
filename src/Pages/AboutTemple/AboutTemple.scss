@@ -45,6 +45,17 @@
                 color: #997b33;
                 border: 1px solid #997b33;
             }
+                         transition: 0.3s linear;
+            
+                         &:hover {
+                             box-shadow: 0px 0px 11px 0.1px rgba(0, 0, 0, 0.226);
+                             scale: 1.01;
+                         }
+            
+                         &:active {
+                             box-shadow: 0px 0px 11px 0.1px rgba(0, 0, 0, 0.125);
+                             scale: 0.95;
+                         }
         }
     }
 

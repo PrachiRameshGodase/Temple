@@ -2,10 +2,12 @@ import React from "react";
 import "./HeroSection.scss";
 import imgGod from '../../assets/home/goadHero.jpeg'
 import { ChevronRight, ClockArrowUp, Mail, MapPin } from "lucide-react";
+import CookieConsent from "../../components/CookieConsent/CookieConsent";
 
 const HeroSection = () => {
     return (
         <div className="temple-container">
+            <CookieConsent />
             <div className="imgGod_hero">
                 <img src={imgGod} alt="" />
             </div>
