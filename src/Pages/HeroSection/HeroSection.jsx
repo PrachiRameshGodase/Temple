@@ -3,8 +3,15 @@ import "./HeroSection.scss";
 import imgGod from '../../assets/home/goadHero.jpeg'
 import { ChevronRight, ClockArrowUp, Mail, MapPin } from "lucide-react";
 import CookieConsent from "../../components/CookieConsent/CookieConsent";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/contact-us");
+        window.scrollTo(0, 0);
+    };
     return (
         <div className="temple-container">
             <CookieConsent />
@@ -23,7 +30,7 @@ const HeroSection = () => {
                         Sri Shirdi Sai Ranga Temple was built by Mrs. Samyukta Mahesh with help of numerous devotees. She was a disciple of Sri Shivanesan Swamiji and Late Mrs. Zarine (an ardent devotee of Baba). The temple trust is a not-for-profit organization dedicated to serving Baba and his teachings.
                     </p>
                     <div className="buttons">
-                        <button className="contact">Contact Us Now</button>
+                        <button className="contact" onClick={handleClick}>Contact Us Now</button>
                         <button className="visit">Visit Temple</button>
                     </div>
                 </div>
