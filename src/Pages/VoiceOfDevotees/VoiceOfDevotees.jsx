@@ -31,7 +31,7 @@ const VoiceOfDevotees = () => {
         </div>
         <button className="see-all">See All Testimonials</button>
       </div>
-      <div className="testimonials">
+      <div className="testimonials01">
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="testimonial">
             <div className="stars">
