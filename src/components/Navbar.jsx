@@ -1,14 +1,12 @@
-import React, { useState, useEffect } from "react";
-import "./Navbar.scss";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/home/logo.jpeg";
-
-import { Menu, X, Search, ArrowRight, ArrowDownToLine } from "lucide-react";
-import { Link, useLocation } from "react-router-dom";
-// import BookAppointment from '../BookAppointment/BookAppointment';
+import "./Navbar.scss";
+import { Menu, X } from "lucide-react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-// import { Link as ScrollLink } from "react-scroll";
 
 function Navbar() {
+  const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -43,7 +41,14 @@ function Navbar() {
     // return location.pathname.includes(path) ? "active-link" : "";
   };
   // white bg
-  const whiteBg = ["contact", "about", 'how-it-work', 'features', 'terms-and-policy', 'privacy-policy'];
+  const whiteBg = [
+    "contact",
+    "about",
+    "how-it-work",
+    "features",
+    "terms-and-policy",
+    "privacy-policy",
+  ];
   const isWhite = whiteBg.some((path) => location.pathname.includes(path));
   const [showModal, setShowModal] = useState(false);
   const handleBookNowClick = () => {
@@ -57,7 +62,8 @@ function Navbar() {
       const section = document.getElementById(id);
       if (section) {
         const yOffset = -80; // 80px upar se adjust karne ke liye
-        const y = section.getBoundingClientRect().top + window.scrollY + yOffset;
+        const y =
+          section.getBoundingClientRect().top + window.scrollY + yOffset;
         window.scrollTo({ top: y, behavior: "smooth" });
       }
     }, 100);
@@ -67,15 +73,16 @@ function Navbar() {
   };
 
   return (
-    <header
-      className={`navbar`}>
+    <header className={`navbar`}>
       <motion.nav
-        className={`navbar-container ${menuOpen ? "menu-active-navbar-container" : ""
-          }`}
+        className={`navbar-container ${
+          menuOpen ? "menu-active-navbar-container" : ""
+        }`}
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
-        viewport={{ once: true, amount: 0.1 }}>
+        viewport={{ once: true, amount: 0.1 }}
+      >
         {/* Logo Section */}
         <div className="navbar-logo">
           <div className="logo-circle">
@@ -92,29 +99,42 @@ function Navbar() {
               </Link>
             </li>
             <li onClick={() => toggleMenu()}>
-              <Link to="/social-services" className={isActive("/social-services")} onClick={() => setTimeout(() => scrollToSection("Features"), 100)}>
+              <Link
+                to="/social-services"
+                className={isActive("/social-services")}
+                onClick={() =>
+                  setTimeout(() => scrollToSection("Features"), 100)
+                }
+              >
                 Social Services & Experiences
               </Link>
             </li>
 
             <li onClick={() => toggleMenu()}>
-              <Link to="/upcoming-projects" className={isActive("/upcoming-projects")} onClick={() => setTimeout(() => scrollToSection("how-it-work"), 100)}>
+              <Link
+                to="/upcoming-projects"
+                className={isActive("/upcoming-projects")}
+                onClick={() =>
+                  setTimeout(() => scrollToSection("how-it-work"), 100)
+                }
+              >
                 Upcoming Projects
               </Link>
             </li>
 
             <li onClick={() => toggleMenu()}>
-              <Link to="/about-us" className={isActive("/about-us")} onClick={() => setTimeout(() => scrollToSection("about"), 100)}>
-                About
+              <Link
+                to="/about-us"
+                className={isActive("/about-us")}
+                onClick={() => setTimeout(() => scrollToSection("about"), 100)}
+              >
+                About Us
               </Link>
             </li>
 
-
-
-
             <li onClick={() => toggleMenu()}>
               <Link to="/contact-us" className={isActive("/contact-us")}>
-                Contact
+                Contact Us
               </Link>
             </li>
           </ul>
@@ -124,8 +144,15 @@ function Navbar() {
         <div className={`navbar-actions ${menuOpen ? "menu-active" : ""}`}>
           {!isVisible ? (
             <div className="right_btn">
-              <button className="call-btn" onClick={handleCall}>Call us 1800 123 456</button>
-              <button className="contact-btn">Contact Us</button>
+              <button className="call-btn" onClick={handleCall}>
+                Call us 1800 123 456
+              </button>
+              <button
+                className="contact-btn"
+                onClick={() => navigate("/contact-us")}
+              >
+                Contact Us
+              </button>
             </div>
           ) : (
             ""
