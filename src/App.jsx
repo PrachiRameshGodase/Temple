@@ -6,7 +6,7 @@ import StatsSection from "./Pages/StatsSection/StatsSection";
 import SocialServices from "./Pages/socialServices/SocialServices";
 import VoiceOfDevotees from "./Pages/VoiceOfDevotees/VoiceOfDevotees";
 import TempleLocation from "./Pages/TempleLocation/TempleLocation";
-import SocialServicesExperiences from "./pages/socialServicesExperiences/socialServicesExperiences";
+import SocialServicesExperiences from "./Pages/socialServicesExperiences/socialServicesExperiences";
 import UpComingProjects from "./pages/UpComingProject/UpComingProjects";
 import AboutUs from "./pages/about/AboutUs";
 import ContactUs from "./pages/ContactUs/ContactUs"
