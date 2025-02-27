@@ -29,10 +29,10 @@ const CookieConsent = () => {
                 for more information.
             </p>
             <div className="button-group">
-                <button className="reject-btn">Reject all cookies</button>
-                <button className="accept-btn">Accept all cookies</button>
+                <button className="reject-btn" onClick={() => setShowPopup(false)}>Reject all cookies</button>
+                <button className="accept-btn" onClick={() => setShowPopup(false)}>Accept all cookies</button>
             </div>
-            <button className="manage-btn">Manage preferences</button>
+            <button className="manage-btn" onClick={() => setShowPopup(false)}>Manage preferences</button>
         </div>
     );
 };
