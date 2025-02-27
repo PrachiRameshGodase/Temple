@@ -23,7 +23,7 @@ function App() {
                 <StatsSection />
                 <SocialServices />
                 <VoiceOfDevotees />
-                <TempleLocation/>
+                <TempleLocation />
               </>
             }
           />
