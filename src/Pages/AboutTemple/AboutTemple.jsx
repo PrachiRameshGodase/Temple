@@ -1,8 +1,15 @@
 import React from "react";
 import "./AboutTemple.scss";
 import templeImage from "../../assets/home/templeAboutThe.jpeg"; // Apni image ka path yahan daalein
+import { useNavigate } from "react-router-dom";
 
 const AboutTemple = () => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/about-us");
+        window.scrollTo(0, 0); 
+    };
     return (
         <section className="temple-section">
             <div className="content">
@@ -24,9 +31,9 @@ const AboutTemple = () => {
                     enters to a peaceful and divine environment that makes you closer to
                     Baba.
                 </p>
-                <button className="details-btn">See More Details</button>
+                <button className="details-btn" onClick={handleClick }>See More Details</button>
             </div>
-            <div className="image-container">
+            <div className="image-container02" >
                 <img src={templeImage} alt="Temple" />
             </div>
         </section>

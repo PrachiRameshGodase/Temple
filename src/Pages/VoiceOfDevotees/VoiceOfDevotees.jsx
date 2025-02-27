@@ -1,6 +1,7 @@
 import React from "react";
 import "./VoiceOfDevotees.scss";
 import { Star } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const testimonials = [
   {
@@ -22,6 +23,21 @@ const testimonials = [
 ];
 
 const VoiceOfDevotees = () => {
+  const navigate = useNavigate();
+
+  const scrollToSection = (id) => {
+    navigate("/social-services");
+    setTimeout(() => {
+      const section = document.getElementById(id);
+      if (section) {
+        const yOffset = -80; // 80px upar se adjust karne ke liye
+        const y = section.getBoundingClientRect().top + window.scrollY + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    }, 100);
+  };
+
+
   return (
     <section className="voice-of-devotees">
       <div className="hero_01">
@@ -29,7 +45,7 @@ const VoiceOfDevotees = () => {
           <h2>Voice Of Devotees</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <button className="see-all">See All Testimonials</button>
+        <button className="see-all" onClick={() => setTimeout(() => scrollToSection("Testimonials"), 100)}>See All Testimonials</button>
       </div>
       <div className="testimonials01">
         {testimonials.map((testimonial) => (

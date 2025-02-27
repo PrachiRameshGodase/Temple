@@ -1,5 +1,6 @@
 import React from "react";
 import "./SocialServices.scss";
+import { useNavigate } from "react-router-dom";
 
 const services = [
     {
@@ -33,6 +34,13 @@ const services = [
 ];
 
 const SocialServices = () => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/social-services");
+        window.scrollTo(0, 0);
+    };
+    
     return (
         <section className="social-services">
             <h2 className="title">Social Services</h2>
@@ -45,7 +53,7 @@ const SocialServices = () => {
                     </div>
                 ))}
             </div>
-            <button className="see-all">See All services</button>
+            <button className="see-all" onClick={handleClick}>See All services</button>
         </section>
     );
 };
