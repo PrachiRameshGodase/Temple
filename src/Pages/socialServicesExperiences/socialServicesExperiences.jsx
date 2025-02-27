@@ -5,7 +5,7 @@ import "./SocialServicesExperiences.scss";
 const SocialServicesExperiences = () => {
   return (
     <>
-      <div className="social-services">
+      <div className="social-services2">
         <div className="container">
           <h3>Social Services</h3>
 
