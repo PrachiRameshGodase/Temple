@@ -20,37 +20,50 @@ const SocialServicesExperiences = () => {
           </div>
         </div>
       </div>
-     
+
       <div className="testimonials">
-      <div className="container">
-        {/* Section Title */}
-        <div className="section-header">
-          <h2>Devotee Testimonials</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+        <div className="container">
+          {/* Section Title */}
+          <div className="section-header">
+            <h2>Devotee Testimonials</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
 
-        {/* Testimonials Grid */}
-        <div className="testimonials-grid">
-          {testimonialsData.map((testimonial, index) => (
-            <div className="testimonial-card" key={index}>
-              <p className="testimonial-text">"{testimonial.review}"</p>
+          {/* Testimonials Grid */}
+          <div className="testimonials-grid">
+            {testimonialsData.map((testimonial, index) => (
+              <div className="testimonial-card" key={index}>
+                <p className="testimonial-text">"{testimonial.review}"</p>
 
-              {/* Star Rating */}
-              <p className="rating">⭐⭐⭐⭐⭐</p>
-
-              {/* User Info */}
-              <div className="user-info">
-                <img src={testimonial.avatar} alt={testimonial.name} className="avatar" />
-                <div className="user-details">
-                  <p className="user-name">{testimonial.name}</p>
-                  <p className="user-date">{testimonial.date}</p>
+                {/* Star Rating */}
+                {/* <p className="rating">⭐⭐⭐⭐⭐</p> */}
+                <div className="stars">
+                  {Array.from({ length: testimonial.rating }).map((_, index) => (
+                    <>
+                      <p>
+                        &#9733;
+                      </p>
+                    </>
+                  ))}
+                  <>
+                    <p className="gray-star">
+                      &#9733;
+                    </p>
+                  </>
+                </div>
+                {/* User Info */}
+                <div className="user-info">
+                  <img src={testimonial.avatar} alt={testimonial.name} className="avatar" />
+                  <div className="user-details">
+                    <p className="user-name">{testimonial.name}</p>
+                    <p className="user-date">{testimonial.date}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 };

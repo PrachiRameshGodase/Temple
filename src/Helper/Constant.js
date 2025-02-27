@@ -16,6 +16,7 @@ export const templeSnapShot = [
 
 export const socialServicesData = [
     {
+
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/ttdgozie8hh2ynbcde62",
         title: "Feeding the poor and the needy",
         description: "Sri Shirdi Sai Anandamaiyee Trust does Annadana (Sponsors lunch) to about 50 Autistic students of a school every day. Fresh nutritious food is transported from the farm to school every day"
@@ -40,115 +41,127 @@ export const socialServicesData = [
     }
     ,
     {
-        imgUrl:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/itwhpxdsff4rsk5pdmcg",
+        imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/itwhpxdsff4rsk5pdmcg",
         title: "Daily Pooja & Aarti Services",
         description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
 
     }
     ,
     {
-        imgUrl:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/pn3ztomrgpv4pemkcqlf",
+        imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/pn3ztomrgpv4pemkcqlf",
         title: "Medical & Health Camps",
         description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
 
     }
-,
-{
-    imgUrl:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/aic1daeinwy5ss9z7x1k",
-    title: "Charity & Financial Assistance",
-    description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
+    ,
+    {
+        imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/aic1daeinwy5ss9z7x1k",
+        title: "Charity & Financial Assistance",
+        description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
 
-},
-{
-    imgUrl:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/yp7rysrsibq56ipoiavu",
-    title: "MSpiritual & Cultural Programs",
-    description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
+    },
+    {
+        imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/yp7rysrsibq56ipoiavu",
+        title: "MSpiritual & Cultural Programs",
+        description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
 
-}]
+    }]
 
-export const testimonialsData=[{
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+export const testimonialsData = [{
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 3,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 4,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 4,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 2,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 3,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 3,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 3,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 3,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 3,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+    rating: 3,
 },
 {
-    review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
-    avatar:"https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
-    name:"Hillery Moses",
-    date:"May 31, 2015"
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare",
+    avatar: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/cld-sample",
+    name: "Hillery Moses",
+    date: "May 31, 2015",
+     rating: 4,
 },
 ]
 
-export const contactUsData=[{
-    icon:otherIcons.email_svg,
-    text:"Email",
-    description:"contact@saitemple.io"
+export const contactUsData = [{
+    icon: otherIcons.email_svg,
+    text: "Email",
+    description: "contact@saitemple.io"
 },
 {
-    icon:otherIcons.chat_svg,
-    text:"Live Chat",
-    description:"Start new chat"
+    icon: otherIcons.chat_svg,
+    text: "Live Chat",
+    description: "Start new chat"
 },
 {
-    icon:otherIcons.mobile_no_svg,
-    text:"Phone",
-    description:"+91-976412016, +91-7845120145"
+    icon: otherIcons.mobile_no_svg,
+    text: "Phone",
+    description: "+91-976412016, +91-7845120145"
 }]
 
-export const projectVideo={
-videoUrl:"https://res.cloudinary.com/dkxfvxdca/video/upload/f_auto:video,q_auto/v1/Temple/yhn2uqamchov62k870a9"}
+export const projectVideo = {
+    videoUrl: "https://res.cloudinary.com/dkxfvxdca/video/upload/f_auto:video,q_auto/v1/Temple/yhn2uqamchov62k870a9"
+}
