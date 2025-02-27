@@ -1,0 +1,155 @@
+.upcoming-projects {
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+  
+    .card {
+      background: rgba(255, 255, 255, 0.2); // Semi-transparent white background
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      color: white;
+      max-width: 700px;
+      backdrop-filter: blur(5px); // Enhancing frosted glass effect
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 90%;
+  
+      h2 {
+        font-size: 40px;
+      }
+  
+      p {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      height: 500px;
+  
+      .card {
+        padding: 20px;
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  
+    @media (max-width: 480px) {
+      height: 450px;
+  
+      .card {
+        padding: 15px;
+        h2 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  
+  .annadanam-container {
+    padding: 60px 120px;
+  
+    h3 {
+      font-size: 50px;
+      margin-bottom: 15px;
+      color: #59430a;
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  
+    .details-container {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  
+      .detail-card {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+        font-weight: bold;
+        border-bottom: 1px solid rgb(229, 220, 220);
+      }
+    }
+  
+    @media (max-width: 1024px) {
+      padding: 40px 80px;
+  
+      h3 {
+        font-size: 40px;
+      }
+  
+      .detail-card {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      padding: 30px 40px;
+  
+      h3 {
+        font-size: 32px;
+      }
+  
+      p {
+        font-size: 14px;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      padding: 20px;
+      
+      h3 {
+        font-size: 28px;
+      }
+  
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  
+  .video-container {
+    padding: 60px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    video {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    @media (max-width: 1024px) {
+      padding: 40px 80px;
+    }
+  
+    @media (max-width: 768px) {
+      padding: 30px 40px;
+    }
+  
+    @media (max-width: 480px) {
+      padding: 20px;
+    }
+  }
+  
