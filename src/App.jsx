@@ -3,9 +3,14 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./Pages/HeroSection/HeroSection";
 import AboutTemple from "./Pages/AboutTemple/AboutTemple";
 import StatsSection from "./Pages/StatsSection/StatsSection";
-// import SocialServices from "./Pages/SocialServices/SocialServices";
+import SocialServices from "./Pages/SocialServices/SocialServices";
 import VoiceOfDevotees from "./Pages/VoiceOfDevotees/VoiceOfDevotees";
 import TempleLocation from "./Pages/TempleLocation/TempleLocation";
+import SocialServicesExperiences from "./pages/socialServicesExperiences/socialServicesExperiences";
+import UpComingProjects from "./pages/UpComingProject/UpComingProjects";
+import AboutUs from "./pages/about/AboutUs";
+import ContactUs from "./pages/ContactUs/ContactUs"
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -21,14 +26,46 @@ function App() {
                 <HeroSection />
                 <AboutTemple />
                 <StatsSection />
-                {/* <SocialServices /> */}
+                <SocialServices />
                 <VoiceOfDevotees />
                 <TempleLocation />
               </>
             }
           />
+           <Route
+            path="/social-services"
+            element={
+              <>
+               <SocialServicesExperiences/>
+              </>
+            }
+          />
+             <Route
+            path="/upcoming-projects"
+            element={
+              <>
+               <UpComingProjects/>
+              </>
+            }
+          />
+           <Route
+            path="/about-us"
+            element={
+              <>
+               <AboutUs/>
+              </>
+            }
+          />
+           <Route
+            path="/contact-us"
+            element={
+              <>
+               <ContactUs/>
+              </>
+            }
+          />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );

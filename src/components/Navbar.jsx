@@ -92,19 +92,19 @@ function Navbar() {
               </Link>
             </li>
             <li onClick={() => toggleMenu()}>
-              <Link to="/features" className={isActive("/features")} onClick={() => setTimeout(() => scrollToSection("Features"), 100)}>
+              <Link to="/social-services" className={isActive("/social-services")} onClick={() => setTimeout(() => scrollToSection("Features"), 100)}>
                 Social Services & Experiences
               </Link>
             </li>
 
             <li onClick={() => toggleMenu()}>
-              <Link to="/how-it-work" className={isActive("/how-it-work")} onClick={() => setTimeout(() => scrollToSection("how-it-work"), 100)}>
+              <Link to="/upcoming-projects" className={isActive("/upcoming-projects")} onClick={() => setTimeout(() => scrollToSection("how-it-work"), 100)}>
                 Upcoming Projects
               </Link>
             </li>
 
             <li onClick={() => toggleMenu()}>
-              <Link to="/about" className={isActive("/about")} onClick={() => setTimeout(() => scrollToSection("about"), 100)}>
+              <Link to="/about-us" className={isActive("/about-us")} onClick={() => setTimeout(() => scrollToSection("about"), 100)}>
                 About
               </Link>
             </li>
@@ -113,7 +113,7 @@ function Navbar() {
 
 
             <li onClick={() => toggleMenu()}>
-              <Link to="/contact" className={isActive("/contact")}>
+              <Link to="/contact-us" className={isActive("/contact-us")}>
                 Contact
               </Link>
             </li>
