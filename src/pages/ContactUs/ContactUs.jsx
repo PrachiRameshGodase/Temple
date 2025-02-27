@@ -35,8 +35,13 @@ const ContactUs = () => {
         </div>
 
         {/* Right Section - Placeholder for Additional Info or Map */}
-        <div className="contact-info">
-        
+        <div className="contact-info02">
+            <iframe
+              title="Temple Location"
+              src="https://maps.google.com/maps?q=Shree%20Venkateshwara%20Temple,%20Bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              allowFullScreen
+              loading="lazy"
+            ></iframe>
         </div>
       </div>
     </div>
