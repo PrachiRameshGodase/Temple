@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import HeroSection from "./Pages/HeroSection/HeroSection";
-import AboutTemple from "./Pages/AboutTemple/AboutTemple";
-import StatsSection from "./Pages/StatsSection/StatsSection";
-import SocialServices from "./Pages/SocialServices/SocialServices";
-import VoiceOfDevotees from "./Pages/VoiceOfDevotees/VoiceOfDevotees";
-import TempleLocation from "./Pages/TempleLocation/TempleLocation";
+import HeroSection from "./pages/HeroSection/HeroSection";
+import AboutTemple from "./pages/AboutTemple/AboutTemple";
+import StatsSection from "./pages/StatsSection/StatsSection";
+import SocialServices from "./pages/socialServices/SocialServices";
+import VoiceOfDevotees from "./pages/VoiceOfDevotees/VoiceOfDevotees";
+import TempleLocation from "./pages/TempleLocation/TempleLocation";
 import SocialServicesExperiences from "./pages/socialServicesExperiences/socialServicesExperiences";
 import UpComingProjects from "./pages/UpComingProject/UpComingProjects";
 import AboutUs from "./pages/about/AboutUs";
