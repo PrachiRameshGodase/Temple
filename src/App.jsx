@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HeroSection from "./Pages/HeroSection/HeroSection";
 import AboutTemple from "./Pages/AboutTemple/AboutTemple";
+import StatsSection from "./Pages/StatsSection/StatsSection";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
             element={
               <>
                 <HeroSection />
-                <AboutTemple/>
+                <AboutTemple />
+                <StatsSection/>
               </>
             }
           />
