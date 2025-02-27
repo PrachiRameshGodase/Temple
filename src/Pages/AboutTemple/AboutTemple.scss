@@ -1,0 +1,82 @@
+.temple-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fdeee5;
+    padding: 50px;
+    border-radius: 12px;
+
+    .content {
+        flex: 1;
+        // max-width: 50%;
+    margin-right: 20px;
+        h2 {
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 57.6px;
+            letter-spacing: -3px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: -0.8px;
+            color: #333;
+          
+            margin-bottom: 15px;
+        }
+
+        .details-btn {
+            background: #997b33;
+            color: white;
+            padding: 12px 20px;
+            border: 1px solid transparent;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover {
+                background: white;
+                color: #997b33;
+                border: 1px solid #997b33;
+            }
+        }
+    }
+
+    .image-container {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            object-fit: cover;
+            width: 616px;
+                height: 640px;
+                border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+
+        .content {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            justify-content: center;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
