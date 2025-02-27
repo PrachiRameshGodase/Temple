@@ -3,13 +3,13 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./Pages/HeroSection/HeroSection";
 import AboutTemple from "./Pages/AboutTemple/AboutTemple";
 import StatsSection from "./Pages/StatsSection/StatsSection";
-import SocialServices from "./pages/socialServices/SocialServices";
+import SocialServices from "./Pages/socialServices/SocialServices";
 import VoiceOfDevotees from "./Pages/VoiceOfDevotees/VoiceOfDevotees";
 import TempleLocation from "./Pages/TempleLocation/TempleLocation";
-import SocialServicesExperiences from "./pages/socialServicesExperiences/socialServicesExperiences";
-import UpComingProjects from "./pages/UpComingProject/UpComingProjects";
-import AboutUs from "./pages/about/AboutUs";
-import ContactUs from "./pages/ContactUs/ContactUs"
+import SocialServicesExperiences from "./Pages/socialServicesExperiences/socialServicesExperiences";
+import UpComingProjects from "./Pages/UpComingProject/UpComingProjects";
+import AboutUs from "./Pages/about/AboutUs";
+import ContactUs from "./Pages/ContactUs/ContactUs"
 import Footer from "./components/Footer";
 
 

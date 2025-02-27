@@ -1,6 +1,6 @@
 import React from "react";
 import { socialServicesData, testimonialsData } from "../../Helper/Constant";
-import "./SocialServicesExperiences.scss";
+import "./socialServicesExperiences.scss";
 
 const SocialServicesExperiences = () => {
   return (
