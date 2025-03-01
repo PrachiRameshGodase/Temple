@@ -17,31 +17,20 @@ const AboutUs = () => {
         <div className="history-content">
           <h2>History of the temple</h2>
           <p>
-            Sri Shirdi Sai Ranga Temple Humesamaradapalya is located off Mysore
-            Road after Kengeri by Rajarajeshwari Hospital. The main temple
-            structure was built in 2002 and several additions have been done
-            like the Gurusthan, Dwarakamaiyee, Nanadadeep, Kandoba Temple, and a
-            place for worship of Lord Krishna and Lord Hanuman. The temple
-            follows the Vidhi of the Shirdi style of worship with the Kakad,
-            Dhoop, Evening, and Sej Artis sung in Marathi.
+            History of Sri Shirdi Sai Anandamaiyee Temple 
           </p>
           <p>
-            In addition to the regular poojas, the temple trust also conducts
-            poojas like Sri Satyanarayana Vartha and Sai Sahasranama with
-            regular chanting of Vishnu Sahasra Nama. A visit to the temple will
-            take away the mundane life and enter a peaceful and divine
-            environment that brings you closer to Baba. (A devotee’s
-            experience).
+            Sri Shirdi Sai Anandamaiyee Temple in Bengaluru stands as a testament to unwavering faith and devotion toward Shirdi Sai Baba. The temple was established through the dedicated efforts of Mrs. Samyukta Mahesh, a devoted disciple of Sri Shivanesan Swamiji and the late Mrs. Zarine, both ardent followers of Baba’s teachings. With the support of numerous devotees, the temple was built to serve as a center of worship, spiritual learning, and service. 
           </p>
           <p>
-            Sri Shirdi Sai Anandamaiyee Temple was built by Mrs. Samyukta Mahesh
-            with the help of numerous devotees. She was a disciple of Sri
-            Shivanesan Swamiji and Late Mrs. Zarine (an ardent devotee of Baba).
-            The temple trust is a non-profit organization dedicated to service
-            to Baba and his teachings. Many social services like Anna Dana,
-            empowering self-help among women, assistance in education, and
-            computer classes for kids are undertaken.
+            The main temple structure was built in 2002, and over the years, several sacred additions have been made, including Gurusthan, Dwarakamaiyee, Nandadeep, Kandoba Temple, and shrines dedicated to Lord Krishna and Lord Hanuman. These additions enrich the spiritual experience, making the temple a divine space where devotees can immerse themselves in prayer and meditation. 
           </p>
+          <p>
+            The temple follows the Shirdi tradition of worship, conducting daily rituals such as Kakad Aarti, Madhyan Aarti, Dhoop Aarti, and Shej Aarti, all sung in Marathi. It also hosts regular poojas, including Sri Satyanarayana Vrat and Sai Sahasranama, along with Vishnu Sahasranama chanting, fostering spiritual upliftment among devotees. 
+          </p>
+          <p>Beyond its religious significance, the temple trust operates as a non-profit organization committed to serving the community. Inspired by Baba’s message of selfless service and love, the trust actively engages in Anna Dana (food distribution), women’s empowerment programs, educational assistance, and computer classes for children. These initiatives reflect the temple’s dedication to spreading Sai Baba’s values of compassion and selfless service. </p>
+          <p>A visit to Sri Shirdi Sai Anandamaiyee Temple is more than a religious experience—it is a journey of faith, peace, and spiritual enlightenment, drawing devotees closer to Baba’s divine presence. </p>
+          
         </div>
 
         <div className="history-stats">

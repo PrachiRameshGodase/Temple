@@ -4,7 +4,7 @@
   justify-content: space-between;
   background: #fdeee5;
   padding: 60px;
-    padding: 60px 120px;
+  padding: 60px 120px;
   @media only screen and (max-width: 1400px) {
     padding: 30px 40px;
   }
@@ -42,6 +42,7 @@
 
     .image-Temple {
       display: none;
+      height: 100%;
       @media only screen and (max-width: 900px) {
         width: 100%;
         height: 400px;
@@ -95,13 +96,15 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    // border: 1px solid red;
     @media only screen and (max-width: 900px) {
       display: none;
     }
     img {
       object-fit: cover;
       width: 616px;
-      height: 640px;
+      height: 670px;
+      // height: 100vh;
       border-radius: 20px;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
       @media only screen and (max-width: 1125px) {

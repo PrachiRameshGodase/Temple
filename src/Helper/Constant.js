@@ -49,52 +49,52 @@ export const socialServicesData = [
     {
 
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/ttdgozie8hh2ynbcde62",
-        title: "Feeding the poor and the needy",
-        description: "Sri Shirdi Sai Anandamaiyee Trust does Annadana (Sponsors lunch) to about 50 Autistic students of a school every day. Fresh nutritious food is transported from the farm to school every day"
+        title: "Nourishing the Needy with Compassion ",
+        description: "Sri Shirdi Sai Anandamaiyee Trust is dedicated to Annadana, providing daily nutritious meals to 50 autistic students. Fresh food is sourced directly from the farm and delivered to the school, ensuring the health and well-being of the children. "
 
     },
     {
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/z4miustkc4wv1gzz37kf",
-        title: "Empowering self help among women",
-        description: "Sri Shirdi Sai Anandamaiyee Trust does Annadana (Sponsors lunch) to about 50 Autistic students of a school every day. Fresh nutritious food is transported from the farm to school every day"
+        title: "Empowering Women Through Self-Help ",
+        description: "The Trust actively conducts training programs for women in nearby villages, fostering self-employment opportunities. By equipping them with essential skills, the initiative enables women to become financially independent and self-reliant. "
     },
     {
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/wbnabrwfzk2syfjxd4f2",
-        title: "Computer classes for kids & women",
-        description: "Kids from the near-by villages who have never been exposed to computer are being taught basic computer courses. As technology is so vital in today’s life, the trust helps in providing kids "
+        title: "Computer Education for Kids & Women ",
+        description: "The trust provides basic computer education to children from nearby villages and women, empowering them with essential digital skills. By introducing technology to those with little or no exposure, the initiative helps bridge the digital gap and prepares them for a tech-driven world. "
 
     },
     {
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/u23kumfltrguagsq5fet",
-        title: "Assistance in Education & Healthy living",
-        description: "As one rightly says Anna dhana (Donating food) is great but Vidya dhana (Sharing knowledge) is the greatest among all dhanas (donations). Apart from the above services Capt. "
+        title: "Education & Healthy Living Assistance ",
+        description: "While Anna Dhana (donating food) is noble, Vidya Dhana (sharing knowledge) is the greatest service. Capt. V.V. Mahesh is deeply committed to education, personally conducting tuition for children struggling in academics, ensuring they receive the support needed for a brighter future. "
 
     }
     ,
     {
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/itwhpxdsff4rsk5pdmcg",
         title: "Daily Pooja & Aarti Services",
-        description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
+        description: "Immerse in spiritual harmony with our daily poojas and aarti, offering divine blessings and peace to all devotees."
 
     }
     ,
     {
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/pn3ztomrgpv4pemkcqlf",
         title: "Medical & Health Camps",
-        description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
+        description: "Experience divine peace through our daily poojas and aarti sessions, bringing blessings and holistic well-being to all devotees."
 
     }
     ,
     {
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/aic1daeinwy5ss9z7x1k",
-        title: "Charity & Financial Assistance",
-        description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
+        title: "Charity & Spiritual Support",
+        description: "Find divine peace through our daily poojas and aarti sessions, fostering spiritual harmony while extending charity and financial assistance to those in need. "
 
     },
     {
         imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/SocialServices/yp7rysrsibq56ipoiavu",
-        title: "MSpiritual & Cultural Programs",
-        description: "Experience divine peace with our daily poojas and aarti sessions, bringing blessings and spiritual harmony to all devotees"
+        title: "Spiritual & Cultural Programs",
+        description: "Immerse in divine serenity through daily poojas and aarti, fostering spiritual harmony and blessings for all."
 
     }]
 
