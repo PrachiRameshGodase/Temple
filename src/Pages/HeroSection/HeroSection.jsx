@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroSection.scss";
-import imgGod from '../../assets/home/goadHero.jpeg'
+import imgGod from '../../assets/home/godHero.jpeg'
 import { ChevronRight, ClockArrowUp, Mail, MapPin } from "lucide-react";
 import CookieConsent from "../../components/CookieConsent/CookieConsent";
 import { useNavigate } from "react-router-dom";
