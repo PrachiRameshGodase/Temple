@@ -16,20 +16,16 @@ const AboutTemple = () => {
                 <h2>About the Temple</h2>
                 <img src={templeImage} alt="Temple" className="image-Temple" />
                 <p>
-                    Sri Shirdi Sai Ranga Temple Humesamaramadapalya is located off Mysore
-                    Road after Kengeri by Rajarajeshwari Hospital. The main temple
-                    structure was built in 2002 and several additions have been done like
-                    the Gurusthan, Dwarakamaiyee, Nanadadeep, Kandoba Temple and a place
-                    for worship of Lord Krishna and Lord Hanuman. The temple follows the
-                    Vidhi of the Shirdi style of worship with the Kakad, Dhoop.
+                    Sadguru Sai Baba Temple in Bengaluru is a sacred space devoted to the teachings and blessings of Shirdi Sai Baba. Established with deep faith, the temple offers a serene and spiritually uplifting environment where devotees can seek peace and divine grace. 
                 </p>
                 <p>
-                    Evening and Sej Artis sung in Marathi. In addition to the regular
-                    poojas the temple trust also conducts poojas like Sri Satyanarayana
-                    Vartha and Sai Sahasranama with regular chanting of Vishnu Sahasra
-                    Nama. A visit to the temple will take away the mundane life and
-                    enters to a peaceful and divine environment that makes you closer to
-                    Baba.
+                    Following the Shirdi tradition, the temple conducts daily Kakad Aarti, Madhyanh Aarti, Dhoop Aarti, and Shej Aarti, along with soulful bhajans and Marathi prayers. It also hosts Sri Satyanarayana Vrat, Sai Sahasranama, and Vishnu Sahasranama chanting, fostering spiritual growth. 
+                </p>
+                <p>
+                    Founded by T. G. Ranganath, a dedicated disciple of Sai Baba and the visionary behind Sri Sai Ranga Seva Prathishtana, the temple stands as a testament to faith and service. His contributions extend to rural development, school enhancements, and scholarships for top students in Malavalli Taluk. He has also built a Shirdi Sai Baba Temple in BJMole Village, featuring sanctums for Lord Ganesha, Dakshinamurthy, Kshetrapalakru, Abhaya Anjaneya, and Amruteshwari Mata. 
+                </p>
+                <p>
+                    With its divine ambiance and commitment to spirituality and social service, the temple remains a beacon of faith and devotion in Bengaluru, offering a path to inner peace and spiritual enlightenment. 
                 </p>
                 <button className="details-btn" onClick={handleClick }>See More Details</button>
             </div>
