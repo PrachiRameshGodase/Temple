@@ -1,13 +1,14 @@
 import React from "react";
 import "./UpComingProjects.scss";
 import { projectVideo, temple } from "../../Helper/Constant";
+import imgGod from '../../assets/templeSnapShot/IMG-20250301-WA0009_6_11zon.jpg'
 
 const UpComingProjects = () => {
   return (
     <div>
       <div
         className="upcoming-projects"
-        style={{ backgroundImage: `url(${temple})` }}
+        style={{ backgroundImage: `url(${imgGod})` }}
       >
         <div className="card">
           <h2>Upcoming Projects</h2>
