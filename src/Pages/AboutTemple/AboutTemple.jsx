@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutTemple.scss";
 import templeImage from "../../assets/home/templeAboutThe.jpeg"; // Apni image ka path yahan daalein
 import { useNavigate } from "react-router-dom";
+import imgGod from '../../assets/templeSnapShot/IMG-20250301-WA0009_6_11zon.jpg'
 
 const AboutTemple = () => {
     const navigate = useNavigate();
@@ -14,7 +15,7 @@ const AboutTemple = () => {
         <section className="temple-section">
             <div className="content">
                 <h2>About the Temple</h2>
-                <img src={templeImage} alt="Temple" className="image-Temple" />
+                <img src={imgGod} alt="Temple" className="image-Temple" />
                 <p>
                     Sadguru Sai Baba Temple in Bengaluru is a sacred space devoted to the teachings and blessings of Shirdi Sai Baba. Established with deep faith, the temple offers a serene and spiritually uplifting environment where devotees can seek peace and divine grace. 
                 </p>
@@ -30,7 +31,7 @@ const AboutTemple = () => {
                 <button className="details-btn" onClick={handleClick }>See More Details</button>
             </div>
             <div className="image-container02" >
-                <img src={templeImage} alt="Temple" />
+                <img src={imgGod} alt="Temple" />
             </div>
         </section>
     );

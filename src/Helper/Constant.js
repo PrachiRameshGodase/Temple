@@ -194,7 +194,7 @@ export const contactUsData = [{
 {
     icon: otherIcons.mobile_no_svg,
     text: "Phone",
-    description: "+91-976412016, +91-7845120145"
+    description: "+91 6362387506"
 }]
 
 export const projectVideo = {
