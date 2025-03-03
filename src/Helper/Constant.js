@@ -15,6 +15,8 @@ import img12 from '../assets/templeSnapShot/IMG-20250301-WA0013_5_11zon.jpg'
 import img13 from '../assets/templeSnapShot/IMG-20250301-WA0014_3_11zon.jpg'
 import img14 from '../assets/templeSnapShot/IMG-20250301-WA0015_2_11zon.jpg'
 import img15 from '../assets/templeSnapShot/IMG-20250301-WA0016_1_11zon.jpg'
+import img16 from '../assets/templeSnapShot/WhatsApp Image 2025-03-03 at 16.01.58_2ddf6e4f_11zon.jpg'
+import img17 from '../assets/templeSnapShot/WhatsApp Image 2025-03-03 at 16.01.59_d7216a0f_11zon.jpg'
 
 export const temple = "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/hc8ridnfhsp1up5ot19y"
 
@@ -34,6 +36,8 @@ export const templeSnapShot = [
     { imgUrl:img13},
     { imgUrl:img14},
     { imgUrl:img15},
+    { imgUrl:img16},
+    { imgUrl:img17},
     // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/sxwabhip4clcn0oroqjk" },
     // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/kfogwhzmuazrosnsikmk" },
     // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/bfa4sf6gkcod1tdr6aef" },

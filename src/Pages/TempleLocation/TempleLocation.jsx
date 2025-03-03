@@ -23,7 +23,7 @@ const TempleLocation = () => {
                     <p>Shree Venkateshwara Temple, 45 Temple Road, Bangalore, Karnataka 560001, India</p>
                 </div>
                 <a
-                    href="https://maps.google.com?q=Shree+Venkateshwara+Temple,+Bangalore"
+                    href="https://maps.app.goo.gl/EVur8y4YbWDDvhYD6?g_st=iw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="directions"
