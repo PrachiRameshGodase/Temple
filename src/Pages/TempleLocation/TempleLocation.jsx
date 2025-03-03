@@ -11,7 +11,7 @@ const TempleLocation = () => {
             <div className="map-container">
                 <iframe
                     title="Temple Location"
-                    src="https://maps.google.com/maps?q=Shree%20Venkateshwara%20Temple,%20Bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.0967506927673!2d77.038552!3d12.241728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf1b74b0aafc71%3A0x1eeb16c9ee321923!2sSri%20Sai%20baba%20temple!5e0!3m2!1sen!2sin!4v1741005327634!5m2!1sen!2sin"
                     allowFullScreen
                     loading="lazy"
                 ></iframe>
