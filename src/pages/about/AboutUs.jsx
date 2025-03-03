@@ -5,8 +5,16 @@ import Footer from "../../components/Footer";
 import imgGod from '../../assets/templeSnapShot/IMG-20250301-WA0009_6_11zon.jpg'
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import { useMediaQuery } from "@mui/material";
 
 const AboutUs = () => {
+  const isXs = useMediaQuery("(max-width:600px)");  // Mobile
+  const isSm = useMediaQuery("(min-width:601px) and (max-width:960px)"); // Tablets
+  const isMd = useMediaQuery("(min-width:961px) and (max-width:1280px)"); // Small Laptops
+  const isLg = useMediaQuery("(min-width:1281px)"); // Large Screens
+
+  // Determine columns dynamically
+  const columns = isXs ? 1 : isSm ? 2 : isMd ? 3 : 4;
   return (
     <>
       <div className="about-us-container">
@@ -85,7 +93,7 @@ const AboutUs = () => {
                   height: "auto",
                 }}
                 variant="masonry" // Masonry layout for better alignment
-                cols={4} // Default columns
+              cols={columns} // Default columns
                 gap={10} // Space between images
               >
                 {templeSnapShot?.map((item, index) => (
