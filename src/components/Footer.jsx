@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-line"></div>
 
       <div className="footer-content">
-        <p>© Copyright 2025 — Sri Shirdi Sai Anandamaiyee Temple. All rights reserved.</p>
+        <p>© Sri Sai baba temple, Purigali, B.G.Mole. All rights reserved.</p>
         <ul>
           <li>Privacy Policy</li>
           <li>Terms of Service</li>
