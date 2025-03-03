@@ -27,25 +27,29 @@ const AboutUs = () => {
       <div className="history-container">
         <div className="history-content">
           <h2>History of the temple</h2>
+
           <p>
             History of Sri Shirdi Sai Anandamaiyee Temple
           </p>
+          <br />
           <p>
-            Sri Shirdi Sai Anandamaiyee Temple in Bengaluru stands as a testament to unwavering faith and devotion toward Shirdi Sai Baba. The temple was established through the dedicated efforts of Mrs. Samyukta Mahesh, a devoted disciple of Sri Shivanesan Swamiji and the late Mrs. Zarine, both ardent followers of Baba’s teachings. With the support of numerous devotees, the temple was built to serve as a center of worship, spiritual learning, and service.
+            Sadguru Sai Baba Temple in Bengaluru is a sacred space devoted to the teachings and blessings of Shirdi Sai Baba. Established with deep faith, the temple offers a serene and spiritually uplifting environment where devotees can seek peace and divine grace.
           </p>
           <p>
-            The main temple structure was built in 2002, and over the years, several sacred additions have been made, including Gurusthan, Dwarakamaiyee, Nandadeep, Kandoba Temple, and shrines dedicated to Lord Krishna and Lord Hanuman. These additions enrich the spiritual experience, making the temple a divine space where devotees can immerse themselves in prayer and meditation.
+            Following the Shirdi tradition, the temple conducts daily Kakad Aarti, Madhyanh Aarti, Dhoop Aarti, and Shej Aarti, along with soulful bhajans and Marathi prayers. It also hosts Sri Satyanarayana Vrat, Sai Sahasranama, and Vishnu Sahasranama chanting, fostering spiritual growth.
           </p>
           <p>
-            The temple follows the Shirdi tradition of worship, conducting daily rituals such as Kakad Aarti, Madhyan Aarti, Dhoop Aarti, and Shej Aarti, all sung in Marathi. It also hosts regular poojas, including Sri Satyanarayana Vrat and Sai Sahasranama, along with Vishnu Sahasranama chanting, fostering spiritual upliftment among devotees.
+            Founded by T. G. Ranganath, a dedicated disciple of Sai Baba and the visionary behind Sri Sai Ranga Seva Prathishtana, the temple stands as a testament to faith and service. His contributions extend to rural development, school enhancements, and scholarships for top students in Malavalli Taluk. He has also built a Shirdi Sai Baba Temple in BJMole Village, featuring sanctums for Lord Ganesha, Dakshinamurthy, Kshetrapalakru, Abhaya Anjaneya, and Amruteshwari Mata.
           </p>
-          <p>Beyond its religious significance, the temple trust operates as a non-profit organization committed to serving the community. Inspired by Baba’s message of selfless service and love, the trust actively engages in Anna Dana (food distribution), women’s empowerment programs, educational assistance, and computer classes for children. These initiatives reflect the temple’s dedication to spreading Sai Baba’s values of compassion and selfless service. </p>
-        <p>A visit to Sri Shirdi Sai Anandamaiyee Temple is more than a religious experience—it is a journey of faith, peace, and spiritual enlightenment, drawing devotees closer to Baba’s divine presence. </p>
+          <p>With its divine ambiance and commitment to spirituality and social service, the temple remains a beacon of faith and devotion in Bengaluru, offering a path to inner peace and spiritual enlightenment.
+
+          </p>
+          {/* <p>A visit to Sri Shirdi Sai Anandamaiyee Temple is more than a religious experience—it is a journey of faith, peace, and spiritual enlightenment, drawing devotees closer to Baba’s divine presence. </p> */}
 
         </div>
         <div className="image-container">
           <img src={imgGod} alt="Temple" />
-          
+
         </div>
 
       </div>
@@ -86,32 +90,32 @@ const AboutUs = () => {
 
         <div className="">
           {/* {templeSnapShot?.map((item, index) => ( */}
-            <>
-              <ImageList
-                sx={{
-                  width: "100%",
-                  height: "auto",
-                }}
-                variant="masonry" // Masonry layout for better alignment
+          <>
+            <ImageList
+              sx={{
+                width: "100%",
+                height: "auto",
+              }}
+              variant="masonry" // Masonry layout for better alignment
               cols={columns} // Default columns
-                gap={10} // Space between images
-              >
-                {templeSnapShot?.map((item, index) => (
-                  <ImageListItem key={index}>
-                    <img
-                      src={`${item.imgUrl}?w=248&fit=crop&auto=format`}
-                      alt={`Temple ${index + 1}`}
-                      loading="lazy"
-                      style={{
-                        width: "100%",
-                        borderRadius: "10px",
-                        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
-                      }}
-                    />
-                  </ImageListItem>
-                ))}
-              </ImageList>
-            </>
+              gap={10} // Space between images
+            >
+              {templeSnapShot?.map((item, index) => (
+                <ImageListItem key={index}>
+                  <img
+                    src={`${item.imgUrl}?w=248&fit=crop&auto=format`}
+                    alt={`Temple ${index + 1}`}
+                    loading="lazy"
+                    style={{
+                      width: "100%",
+                      borderRadius: "10px",
+                      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
+                    }}
+                  />
+                </ImageListItem>
+              ))}
+            </ImageList>
+          </>
           {/* ))} */}
         </div>
       </div>

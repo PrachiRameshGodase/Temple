@@ -20,7 +20,7 @@ const TempleLocation = () => {
             <div className="temple-info">
                 <div>
                     <h3>Sri Shirdi Sairanga Temple</h3>
-                    <p>Shree Venkateshwara Temple, 45 Temple Road, Bangalore, Karnataka 560001, India</p>
+                    <p>62RQ+FMH, Purigali, B.G.Mole, Karnataka 571463</p>
                 </div>
                 <a
                     href="https://maps.app.goo.gl/EVur8y4YbWDDvhYD6?g_st=iw"
