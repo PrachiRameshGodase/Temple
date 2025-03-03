@@ -3,6 +3,8 @@ import "./AboutUs.scss"; // Import SCSS file
 import { temple, templeSnapShot } from "../../Helper/Constant";
 import Footer from "../../components/Footer";
 import imgGod from '../../assets/templeSnapShot/IMG-20250301-WA0009_6_11zon.jpg'
+import ImageList from "@mui/material/ImageList";
+import ImageListItem from "@mui/material/ImageListItem";
 
 const AboutUs = () => {
   return (
@@ -74,14 +76,35 @@ const AboutUs = () => {
           {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
         </div>
 
-        <div className="snapshots-grid">
-          {templeSnapShot?.map((item, index) => (
-            <div className="snapshot-card" key={index}>
-              <div className="img">
-                <img src={item.imgUrl} alt={`Temple ${index + 1}`} />
-              </div>
-            </div>
-          ))}
+        <div className="">
+          {/* {templeSnapShot?.map((item, index) => ( */}
+            <>
+              <ImageList
+                sx={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                variant="masonry" // Masonry layout for better alignment
+                cols={4} // Default columns
+                gap={10} // Space between images
+              >
+                {templeSnapShot?.map((item, index) => (
+                  <ImageListItem key={index}>
+                    <img
+                      src={`${item.imgUrl}?w=248&fit=crop&auto=format`}
+                      alt={`Temple ${index + 1}`}
+                      loading="lazy"
+                      style={{
+                        width: "100%",
+                        borderRadius: "10px",
+                        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
+                      }}
+                    />
+                  </ImageListItem>
+                ))}
+              </ImageList>
+            </>
+          {/* ))} */}
         </div>
       </div>
 
