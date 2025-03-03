@@ -134,20 +134,8 @@ function Navbar() {
         <div className={`navbar-actions ${menuOpen ? "menu-active" : ""}`}>
           {!isVisible ? (
             <div className="right_btn">
-<<<<<<< HEAD
-              <button className="call-btn" onClick={handleCall}>
-                Call us 1800 123 456
-              </button>
-              <button
-                className="contact-btn"
-                onClick={() => navigate("/contact-us")}
-              >
-                Contact Us
-              </button>
-=======
               <button className="call-btn" onClick={handleCall}>Call us +91 6362387506</button>
               <button className="contact-btn">Contact Us</button>
->>>>>>> ab80043398f1bfc86380f5794a41dd4d9e24317b
             </div>
           ) : (
             ""
