@@ -69,7 +69,7 @@ function Navbar() {
     }, 100);
   };
   const handleCall = () => {
-    window.location.href = "tel:1800123456";
+    window.location.href = "tel:6362387506";
   };
 
   return (
@@ -99,13 +99,12 @@ function Navbar() {
               </Link>
             </li>
             <li onClick={() => toggleMenu()}>
-              <Link
-                to="/social-services"
-                className={isActive("/social-services")}
-                onClick={() =>
-                  setTimeout(() => scrollToSection("Features"), 100)
-                }
-              >
+              <Link to="/about-us" className={isActive("/about-us")} onClick={() => setTimeout(() => scrollToSection("about"), 100)}>
+                About
+              </Link>
+            </li>
+            <li onClick={() => toggleMenu()}>
+              <Link to="/social-services" className={isActive("/social-services")} onClick={() => setTimeout(() => scrollToSection("Features"), 100)}>
                 Social Services & Experiences
               </Link>
             </li>
@@ -122,15 +121,6 @@ function Navbar() {
               </Link>
             </li>
 
-            <li onClick={() => toggleMenu()}>
-              <Link
-                to="/about-us"
-                className={isActive("/about-us")}
-                onClick={() => setTimeout(() => scrollToSection("about"), 100)}
-              >
-                About Us
-              </Link>
-            </li>
 
             <li onClick={() => toggleMenu()}>
               <Link to="/contact-us" className={isActive("/contact-us")}>
@@ -144,6 +134,7 @@ function Navbar() {
         <div className={`navbar-actions ${menuOpen ? "menu-active" : ""}`}>
           {!isVisible ? (
             <div className="right_btn">
+<<<<<<< HEAD
               <button className="call-btn" onClick={handleCall}>
                 Call us 1800 123 456
               </button>
@@ -153,6 +144,10 @@ function Navbar() {
               >
                 Contact Us
               </button>
+=======
+              <button className="call-btn" onClick={handleCall}>Call us +91 6362387506</button>
+              <button className="contact-btn">Contact Us</button>
+>>>>>>> ab80043398f1bfc86380f5794a41dd4d9e24317b
             </div>
           ) : (
             ""

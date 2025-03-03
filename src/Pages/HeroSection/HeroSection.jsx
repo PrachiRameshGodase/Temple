@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroSection.scss";
-import imgGod from '../../assets/home/godHero.jpeg'
+import imgGod from '../../assets/templeSnapShot/IMG-20250301-WA0009_6_11zon.jpg'
+// import imgGod2 from '../../assets/home/goad.jpg'
 import { ChevronRight, ClockArrowUp, Mail, MapPin } from "lucide-react";
 import CookieConsent from "../../components/CookieConsent/CookieConsent";
 import { useNavigate } from "react-router-dom";
@@ -12,6 +13,10 @@ const HeroSection = () => {
         navigate("/contact-us");
         window.scrollTo(0, 0);
     };
+    const handleCall = () => {
+        window.location.href = "tel:6362387506";
+    };
+
     return (
         <div className="temple-container">
             <CookieConsent />
@@ -27,11 +32,15 @@ const HeroSection = () => {
                 </h1>
                 <div>
                     <p>
-                        Sri Shirdi Sai Ranga Temple was built by Mrs. Samyukta Mahesh with help of numerous devotees. She was a disciple of Sri Shivanesan Swamiji and Late Mrs. Zarine (an ardent devotee of Baba). The temple trust is a not-for-profit organization dedicated to serving Baba and his teachings.
+                        Welcome to Sai Ranga Seva Prathishtana
+                        <br />
+                        Experience the divine presence and blessings of Shirdi Sai Baba at our sacred temple. With an atmosphere of peace, devotion, and spirituality, our temple is a place where devotees come to seek faith, patience, and guidance.
                     </p>
                     <div className="buttons">
                         <button className="contact" onClick={handleClick}>Contact Us Now</button>
-                        <button className="visit">Visit Temple</button>
+                        <a href="https://maps.app.goo.gl/EVur8y4YbWDDvhYD6?g_st=iw" target="_blank">
+                            <button className="visit">Visit Temple</button>
+                        </a>
                     </div>
                 </div>
             </header>
@@ -49,9 +58,9 @@ const HeroSection = () => {
                         <MapPin size={32} strokeWidth={2.5} />
                         <h3>Location</h3>
                     </div>
-                    <p>456 Tech Park, Bengaluru KA 560001 IN</p>
+                    <p>62RQ+FMH, Purigali, B.G.Mole, Karnataka 571463</p>
                     <a
-                        href="https://maps.google.com?q=Shree+Venkateshwara+Temple,+Bangalore"
+                        href="https://maps.app.goo.gl/EVur8y4YbWDDvhYD6?g_st=iw"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="directions"
@@ -60,10 +69,10 @@ const HeroSection = () => {
                 <div className="info-box">
                     <div className="icon">
                         <Mail size={32} strokeWidth={2.5} />
-                        
-                        <h3>Mail</h3>
+
+                        <h3>Phone</h3>
                     </div>
-                    <p>Bookings & Enquiries +61 2 91234 4567</p>
+                    <p onClick={handleCall}>+91 6362387506</p>
                 </div>
             </div>
         </div>

@@ -21,22 +21,19 @@ const SocialServicesExperiences = () => {
         </div>
       </div>
 
-      <div className="testimonials" id="Testimonials">
+      {/* <div className="testimonials" id="Testimonials">
         <div className="container">
-          {/* Section Title */}
           <div className="section-header">
             <h2>Devotee Testimonials</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
 
-          {/* Testimonials Grid */}
           <div className="testimonials-grid">
             {testimonialsData.map((testimonial, index) => (
               <div className="testimonial-card" key={index}>
                 <p className="testimonial-text">"{testimonial.review}"</p>
 
-                {/* Star Rating */}
-                {/* <p className="rating">⭐⭐⭐⭐⭐</p> */}
+              
                 <div className="stars">
                   {Array.from({ length: testimonial.rating }).map((_, index) => (
                     <>
@@ -51,7 +48,6 @@ const SocialServicesExperiences = () => {
                     </p>
                   </>
                 </div>
-                {/* User Info */}
                 <div className="user-info">
                   <img src={testimonial.avatar} alt={testimonial.name} className="avatar" />
                   <div className="user-details">
@@ -63,7 +59,7 @@ const SocialServicesExperiences = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

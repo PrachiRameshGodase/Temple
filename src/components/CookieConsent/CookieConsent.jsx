@@ -5,14 +5,20 @@ const CookieConsent = () => {
     const [showPopup, setShowPopup] = useState(false);
 
     useEffect(() => {
-        const timer = setTimeout(() => {
-            setShowPopup(true);
-        }, 6000); 
+        const hasSeenPopup = localStorage.getItem("hasSeenPopup");
 
-        return () => clearTimeout(timer); // Cleanup on unmount
+        if (!hasSeenPopup) {
+            const timer = setTimeout(() => {
+                setShowPopup(true);
+                localStorage.setItem("hasSeenPopup", "true"); // 🔹 First time user, store in localStorage
+            }, 6000);
+
+            return () => clearTimeout(timer); // Cleanup on unmount
+        }
     }, []);
 
     if (!showPopup) return null;
+
 
     return (
         <div className="cookie-popup">
