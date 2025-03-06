@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
-import logo from "../assets/home/logo.jpeg";
+import React, { useState, useEffect } from "react";
 import "./Navbar.scss";
-import { Menu, X } from "lucide-react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import logo from "../assets/home/logo.jpg";
+
+import { Menu, X, Search, ArrowRight, ArrowDownToLine } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
+// import BookAppointment from '../BookAppointment/BookAppointment';
 import { motion } from "framer-motion";
 
 function Navbar() {
@@ -122,6 +124,11 @@ function Navbar() {
             </li>
 
 
+            <li onClick={() => toggleMenu()}>
+              <Link to="/donation" className={isActive("/donation")}>
+                Donation
+              </Link>
+            </li>
             <li onClick={() => toggleMenu()}>
               <Link to="/contact-us" className={isActive("/contact-us")}>
                 Contact Us

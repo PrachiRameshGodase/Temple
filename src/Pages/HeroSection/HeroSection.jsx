@@ -48,17 +48,20 @@ const HeroSection = () => {
                 <div className="info-box">
                     <div className="icon">
                         <ClockArrowUp size={32} strokeWidth={2.5} />
-                        <h3>Open hours</h3>
+                        <h3>Temple Open Timings</h3>
                     </div>
-                    <p>Wednesday to Saturday<br />12:00 pm – 3:00 pm, 6:00 pm – 9:30 pm</p>
-                    <p>Sunday<br />12:00 pm – 3:00 pm, 6:00 pm – 8:00 pm</p>
+                    <p>
+                        {/* Wednesday to Saturday<br /> */}
+                        07:00am to 11:30pm & 05:00pm to 09:30pm
+                    </p>
+                    {/* <p>Sunday<br />12:00 pm – 3:00 pm, 6:00 pm – 8:00 pm</p> */}
                 </div>
                 <div className="info-box">
                     <div className="icon">
                         <MapPin size={32} strokeWidth={2.5} />
                         <h3>Location</h3>
                     </div>
-                    <p>62RQ+FMH, Purigali, B.G.Mole, Karnataka 571463</p>
+                    <p>Purigali, B.G.Mole, Karnataka 571463</p>
                     <a
                         href="https://maps.app.goo.gl/EVur8y4YbWDDvhYD6?g_st=iw"
                         target="_blank"

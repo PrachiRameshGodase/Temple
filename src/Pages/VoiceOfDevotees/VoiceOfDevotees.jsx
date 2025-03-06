@@ -8,7 +8,7 @@ const testimonials = [
     id: 1,
     name: "Vishwas Patel",
     date: "March 13, 2014",
-    review: "The bhajan sessions here are so divine that they transport you to a different world. Every Thursday, I make sure to attend, as it fills my heart with devotion and happiness",
+    review: "The bhajan sessions at Sadguru Sai Baba Temple are truly divine. The peaceful atmosphere and soulful chanting transport me to a different world. Every Thursday, I make sure to attend, as it fills my heart with devotion, positivity, and inner peace. A perfect place to connect with spirituality!",
     rating: 4,
     image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
@@ -16,7 +16,7 @@ const testimonials = [
     id: 2,
     name: "Sameer Bhosale",
     date: "May 12, 2019",
-    review: "I was going through a tough phase in my life, and after attending the Thursday aarti, I felt a sense of calm and positivity. Miraculously, my problems started resolving",
+    review: "I was going through a tough phase in my life, and after attending the Thursday aarti at Sadguru Sai Baba Temple, I felt an immense sense of calm and positivity. Miraculously, my worries started fading away, and things began to fall into place. This temple is truly a source of divine blessings and peace.",
     rating: 4,
     image: "https://randomuser.me/api/portraits/men/2.jpg",
   },
@@ -43,9 +43,9 @@ const VoiceOfDevotees = () => {
       <div className="hero_01">
         <div>
           <h2>Voice Of Devotees</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
         </div>
-        <button className="see-all" onClick={() => setTimeout(() => scrollToSection("Testimonials"), 100)}>See All Testimonials</button>
+        {/* <button className="see-all" onClick={() => setTimeout(() => scrollToSection("Testimonials"), 100)}>See All Testimonials</button> */}
       </div>
       <div className="testimonials01">
         {testimonials.map((testimonial) => (
@@ -63,10 +63,10 @@ const VoiceOfDevotees = () => {
 
             <p className="review">"{testimonial.review}"</p>
             <div className="user-info">
-              <img src={testimonial.image} alt={testimonial.name} />
+              {/* <img src={testimonial.image} alt={testimonial.name} /> */}
               <div>
                 <h4>{testimonial.name}</h4>
-                <p>{testimonial.date}</p>
+                {/* <p>{testimonial.date}</p> */}
               </div>
             </div>
           </div>

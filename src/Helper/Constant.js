@@ -21,32 +21,16 @@ import img17 from '../assets/templeSnapShot/WhatsApp Image 2025-03-03 at 16.01.5
 export const temple = "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/hc8ridnfhsp1up5ot19y"
 
 export const templeSnapShot = [
+    { imgUrl:img13},
     { imgUrl:img1},
     { imgUrl:img2},
-    { imgUrl:img3},
-    { imgUrl:img4},
     { imgUrl:img5},
-    { imgUrl:img6},
-    { imgUrl:img7},
     { imgUrl:img8},
-    { imgUrl:img9},
-    { imgUrl:img13},
-    { imgUrl:img10},
-    { imgUrl:img11},
+    { imgUrl:img3},
     { imgUrl:img12},
-    { imgUrl:img14},
-    { imgUrl:img16},
-    // { imgUrl:img17},
-    { imgUrl:img15},
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/sxwabhip4clcn0oroqjk" },
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/kfogwhzmuazrosnsikmk" },
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/bfa4sf6gkcod1tdr6aef" },
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/wq6gdjsgtg1kytwdwbmq" },
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/egb3zr0ejz39j3ccaxaw" },
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/bxxgts9yo9cprwsd6m1a" },
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/jmoctlz4yakukyrwwohc" },
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/fuw6okoqtumsdrujfk9h" },
-    // { imgUrl: "https://res.cloudinary.com/dkxfvxdca/image/upload/f_auto,q_auto/v1/Temple/About/pxfvhbgdpusy1w1ahuap" },
+    { imgUrl:img10},
+    { imgUrl:img4},
+   
 ];
 
 export const socialServicesData = [
@@ -184,13 +168,13 @@ export const testimonialsData = [{
 export const contactUsData = [{
     icon: otherIcons.email_svg,
     text: "Email",
-    description: "contact@saitemple.io"
+    description: "Info@srisairanga.com"
 },
-{
-    icon: otherIcons.chat_svg,
-    text: "Live Chat",
-    description: "Start new chat"
-},
+// {
+//     icon: otherIcons.chat_svg,
+//     text: "Live Chat",
+//     description: "Start new chat"
+// },
 {
     icon: otherIcons.mobile_no_svg,
     text: "Phone",

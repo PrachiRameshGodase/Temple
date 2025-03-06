@@ -17,7 +17,7 @@ const AboutTemple = () => {
                 <h2>About the Temple</h2>
                 <img src={imgGod} alt="Temple" className="image-Temple" />
                 <p>
-                    Sadguru Sai Baba Temple in Bengaluru is a sacred space devoted to the teachings and blessings of Shirdi Sai Baba. Established with deep faith, the temple offers a serene and spiritually uplifting environment where devotees can seek peace and divine grace. 
+                    Sadguru Sai Baba Temple in  ⁠57kms from MYSURU via T narasipura -> Mudukutore -> BJMole  is a sacred space devoted to the teachings and blessings of Shirdi Sai Baba. Established with deep faith, the temple offers a serene and spiritually uplifting environment where devotees can seek peace and divine grace. 
                 </p>
                 <p>
                     Following the Shirdi tradition, the temple conducts daily Kakad Aarti, Madhyanh Aarti, Dhoop Aarti, and Shej Aarti, along with soulful bhajans and Marathi prayers. It also hosts Sri Satyanarayana Vrat, Sai Sahasranama, and Vishnu Sahasranama chanting, fostering spiritual growth. 

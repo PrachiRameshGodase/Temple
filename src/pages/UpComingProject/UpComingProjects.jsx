@@ -2,7 +2,7 @@ import React from "react";
 import "./UpComingProjects.scss";
 import { projectVideo, temple } from "../../Helper/Constant";
 import imgGod from '../../assets/templeSnapShot/IMG-20250301-WA0009_6_11zon.jpg'
-
+import imgStatus from '../../assets/home/statusImg.jpg'
 const UpComingProjects = () => {
   return (
     <div>
@@ -18,7 +18,7 @@ const UpComingProjects = () => {
         </div>
       </div>
       <div className="annadanam-container">
-        <h3>Annadanam Seva Hall Construction</h3>
+        <h3>Prasadam hall</h3>
         <p>
           Creating a dedicated and welcoming space that serves free meals every
           day to thousands of devoted followers and those in need is not just a
@@ -41,7 +41,7 @@ const UpComingProjects = () => {
           </div>
           <div className="detail-card">
             <p>Status</p>
-            <p>MStatus</p>
+            <p>In Progress</p>
           </div>
           <div className="detail-card">
             <p>Timeline</p>
@@ -51,7 +51,7 @@ const UpComingProjects = () => {
       </div>
 
       <div className="video-container">
-        <video src={projectVideo?.videoUrl} controls></video>
+        <img src={imgStatus} alt="" />
       </div>
     </div>
   );

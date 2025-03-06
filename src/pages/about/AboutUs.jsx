@@ -33,8 +33,7 @@ const AboutUs = () => {
           </p>
           <br />
           <p>
-            Sadguru Sai Baba Temple in Bengaluru is a sacred space devoted to the teachings and blessings of Shirdi Sai Baba. Established with deep faith, the temple offers a serene and spiritually uplifting environment where devotees can seek peace and divine grace.
-          </p>
+              Sadguru Sai Baba Temple in ⁠57kms from MYSURU via T narasipura -> Mudukutore -> BJMole is a sacred space devoted to the teachings and blessings of Shirdi Sai Baba. Established with deep faith, the temple offers a serene and spiritually uplifting environment where devotees can seek peace and divine grace.          </p>
           <p>
             Following the Shirdi tradition, the temple conducts daily Kakad Aarti, Madhyanh Aarti, Dhoop Aarti, and Shej Aarti, along with soulful bhajans and Marathi prayers. It also hosts Sri Satyanarayana Vrat, Sai Sahasranama, and Vishnu Sahasranama chanting, fostering spiritual growth.
           </p>
@@ -81,6 +80,34 @@ const AboutUs = () => {
       {/* <div className="image-container">
         <img src={temple} alt="Temple" />
       </div> */}
+
+      <div className="about-container">
+        <h1 className="title">Sri Sai Ranga Seva Prathishtana & T G Ranganath</h1>
+
+        <section className="section">
+          <h2>T G Ranganath – A Devotee & Social Reformer</h2>
+          <p>T G Ranganath, the founder of <strong>Sri Sai Ranga Seva Prathishtana</strong>, is a dedicated devotee of <strong>Shiradi Sai Baba</strong>. His commitment to spiritual and social service has transformed many lives through various initiatives.</p>
+        </section>
+
+        <section className="section">
+          <h2>Social Contributions & Development Initiatives</h2>
+          <ul>
+            <li>Actively involved in <strong>rural development</strong> and improving <strong>government schools</strong>.</li>
+            <li>Constructed <strong>classrooms</strong> for students at <strong>Bilijagalimole Government Higher Primary School & Saraguru Government High School</strong>.</li>
+            <li>Built the <strong>Sharadi Sai Baba Temple</strong> in <strong>BJMole Village</strong>, featuring deities like <strong>Ganapathi, Dakshinamurthy, Kshetrapalakru, Abhaya Anjaneya</strong>, and a <strong>6-feet standing Amruteshwari Temple</strong>.</li>
+          </ul>
+        </section>
+
+        <section className="section">
+          <h2>Educational Support & Scholarships</h2>
+          <p>Annually provides <strong>scholarships</strong> to <strong>top 10 students</strong> of Malavalli Taluk, rewarding the <strong>1st rank holders</strong>.</p>
+        </section>
+
+        <section className="section">
+          <h2>Promoting Organic Farming</h2>
+          <p>Encourages and educates farmers to shift <strong>back to organic farming</strong>, promoting sustainable agriculture.</p>
+        </section>
+      </div>
 
       <div className="temple-snapshots-container">
         <div className="header">
