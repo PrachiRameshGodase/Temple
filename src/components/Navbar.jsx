@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.scss";
-import logo from "../assets/home/logo.jpeg";
+import logo from "../assets/home/logo.jpg";
 
 import { Menu, X, Search, ArrowRight, ArrowDownToLine } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
@@ -113,6 +113,11 @@ function Navbar() {
 
 
 
+            <li onClick={() => toggleMenu()}>
+              <Link to="/donation" className={isActive("/donation")}>
+                Donation
+              </Link>
+            </li>
             <li onClick={() => toggleMenu()}>
               <Link to="/contact-us" className={isActive("/contact-us")}>
                 Contact

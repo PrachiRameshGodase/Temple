@@ -38,7 +38,7 @@
       justify-content: center;
 
       .service-card {
-        margin-top: 20px;
+        // margin-top: 20px;
         border-radius: 20px;
         // padding: 20px;
         text-align: center;
@@ -50,7 +50,9 @@
           border-radius: 20px;
           object-fit: cover;
         }
-
+        .img_sch{
+          height: 300px;
+        }
         h2 {
           font-size: 20px;
           margin-top: 15px;
@@ -65,6 +67,11 @@
           text-align: left;
         }
       }
+    }
+    .grid_sch{
+      display: grid;
+      // gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     }
   }
 

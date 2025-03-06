@@ -11,6 +11,7 @@ import UpComingProjects from "./pages/UpComingProject/UpComingProjects";
 import AboutUs from "./pages/about/AboutUs";
 import ContactUs from "./pages/ContactUs/ContactUs"
 import Footer from "./components/Footer";
+import Donation from "./Pages/Donation/Donation";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
               <>
                 <HeroSection />
                 <AboutTemple />
-                <StatsSection />
+                {/* <StatsSection /> */}
                 <SocialServices />
                 <VoiceOfDevotees />
                 <TempleLocation />
@@ -61,6 +62,14 @@ function App() {
             element={
               <>
                <ContactUs/>
+              </>
+            }
+          />
+           <Route
+            path="/donation"
+            element={
+              <>
+                <Donation />
               </>
             }
           />

@@ -6,7 +6,7 @@ const TempleLocation = () => {
     return (
         <section className="temple-location">
             <h2>Our Temple Location</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
 
             <div className="map-container">
                 <iframe
