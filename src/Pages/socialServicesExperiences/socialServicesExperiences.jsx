@@ -45,7 +45,8 @@ const services = [
     title: "Education",
     description:
       "Kids from the near-by villages who have never been exposed to computer are being taught basic computer courses. As technology is so vital in today’s life, the trust helps in providing kids with basic introduction to computers.",
-    image: "https://s3-alpha-sig.figma.com/img/d40c/d6ff/82823f14f28b14e3993adf61427f0f29?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XbTlstVyhL398dG-sjBVntFfLHE2vfbZHBkBysbwfbig4-S2BObhkNM7xuMm5kEEOXM5n-iBE9U1S6RrjOQdxaXZx256CldToms3Vjtzdpwk6mOktuwa9UVarsp9ZWUbCvQiu4oTo2AoDVEe-~kIwkGhdTdDoH8Q3mKzlcLe7Dqq9up4o0MWfZKepH9f7IWXXuvy-qCZ427mMsT8RncYrTnEBMDkYbYheW6xafZzrIqJy8hN-C28gacRP4DIwgFfJw9583hzYYFSkhlWHpBhEYbsMiuzTYhxkJuOW~XH9DU~aHbAPoC1VQbfO2mmRFZ~g9~Co0tvjWvCsKfPWiNQwg__",
+    // image: "https://s3-alpha-sig.figma.com/img/d40c/d6ff/82823f14f28b14e3993adf61427f0f29?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XbTlstVyhL398dG-sjBVntFfLHE2vfbZHBkBysbwfbig4-S2BObhkNM7xuMm5kEEOXM5n-iBE9U1S6RrjOQdxaXZx256CldToms3Vjtzdpwk6mOktuwa9UVarsp9ZWUbCvQiu4oTo2AoDVEe-~kIwkGhdTdDoH8Q3mKzlcLe7Dqq9up4o0MWfZKepH9f7IWXXuvy-qCZ427mMsT8RncYrTnEBMDkYbYheW6xafZzrIqJy8hN-C28gacRP4DIwgFfJw9583hzYYFSkhlWHpBhEYbsMiuzTYhxkJuOW~XH9DU~aHbAPoC1VQbfO2mmRFZ~g9~Co0tvjWvCsKfPWiNQwg__",
+    image:'https://img.freepik.com/free-photo/woman-teaching-classroom_23-2151696381.jpg?t=st=1741252954~exp=1741256554~hmac=8b91c042140d0bd51c8f8f5d7620ed0d17e1829db072f3dc4b2e7befe0c63484&w=1380'
   },
   {
     id: 4,
