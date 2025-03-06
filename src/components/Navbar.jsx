@@ -3,7 +3,7 @@ import "./Navbar.scss";
 import logo from "../assets/home/logo.jpg";
 
 import { Menu, X, Search, ArrowRight, ArrowDownToLine } from "lucide-react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 // import BookAppointment from '../BookAppointment/BookAppointment';
 import { motion } from "framer-motion";
 
