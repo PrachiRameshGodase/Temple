@@ -27,12 +27,12 @@ const HeroSection = () => {
                 <h1>
                     <span className="highlight">Om Sai Ram – </span>
                     Welcome to
-                    <span className="strong"> SRI SAI RANGA</span>
-                    Temple
+                    <span className="strong">  Sri Shirdi Sai Baba Temple </span>
+                    Dwarakamayi, BJMole
                 </h1>
                 <div>
                     <p>
-                        Welcome to Sai Ranga Seva Prathishtana
+                        Welcome to Sri Shirdi Sai Baba  Dwarakamayi, BJMole
                         <br />
                         Experience the divine presence and blessings of Shirdi Sai Baba at our sacred temple. With an atmosphere of peace, devotion, and spirituality, our temple is a place where devotees come to seek faith, patience, and guidance.
                     </p>
