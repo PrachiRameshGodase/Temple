@@ -35,7 +35,7 @@ function Navbar() {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   };
 
   const isActive = (path) => {
@@ -98,7 +98,8 @@ function Navbar() {
             </li>
             <li onClick={() => toggleMenu()}>
               <Link to="/social-services" className={isActive("/social-services")} onClick={() => setTimeout(() => scrollToSection("Features"), 100)}>
-                Social Services & Experiences
+                {/* Social Services & Experiences */}
+                Services
               </Link>
             </li>
 
@@ -116,6 +117,11 @@ function Navbar() {
             <li onClick={() => toggleMenu()}>
               <Link to="/donation" className={isActive("/donation")}>
                 Donation
+              </Link>
+            </li>
+            <li onClick={() => toggleMenu()}>
+              <Link to="/documents" className={isActive("/documents")}>
+                Documents
               </Link>
             </li>
             <li onClick={() => toggleMenu()}>

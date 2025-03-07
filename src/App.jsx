@@ -12,6 +12,7 @@ import AboutUs from "./pages/about/AboutUs";
 import ContactUs from "./pages/ContactUs/ContactUs"
 import Footer from "./components/Footer";
 import Donation from "./Pages/Donation/Donation";
+import DocumentsPage from "./Pages/DocumentsPage/DocumentsPage";
 
 
 function App() {
@@ -70,6 +71,14 @@ function App() {
             element={
               <>
                 <Donation />
+              </>
+            }
+          />
+           <Route
+            path="/documents"
+            element={
+              <>
+                <DocumentsPage />
               </>
             }
           />

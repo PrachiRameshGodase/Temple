@@ -19,8 +19,8 @@ const TempleLocation = () => {
 
             <div className="temple-info">
                 <div>
-                    <h3>Sri Shirdi Sairanga Temple</h3>
-                    <p>62RQ+FMH, Purigali, B.G.Mole, Karnataka 571463</p>
+                    <h3>Shirdi sai baba Temple Dwarkamai</h3>
+                    <p>62RQ+FMH, Purigali, B.G.Mole, Malavalli Taluk, Mandya District, Karnataka 571463, India</p>
                 </div>
                 <a
                     href="https://maps.app.goo.gl/EVur8y4YbWDDvhYD6?g_st=iw"
@@ -28,7 +28,7 @@ const TempleLocation = () => {
                     rel="noopener noreferrer"
                     className="directions"
                 >
-                    <LocateFixed />  Get Directions <ChevronRight />
+                    <LocateFixed /> Get Directions <ChevronRight />
                 </a>
             </div>
         </section>
