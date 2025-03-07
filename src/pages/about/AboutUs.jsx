@@ -29,7 +29,7 @@ const AboutUs = () => {
           <h2>History of the temple</h2>
 
           <p>
-            History of Sri Shirdi Sai Anandamaiyee Temple
+            History of  Sri Shirdi Sai Baba Temple, Dwarakamayi, BJMole Temple
           </p>
           <br />
           <p>
@@ -55,7 +55,7 @@ const AboutUs = () => {
       <div className="content0p">
 
       </div>
-      <div className="history-stats">
+      {/* <div className="history-stats">
         <ul>
           <li>
             <h3>1998</h3>
@@ -76,7 +76,7 @@ const AboutUs = () => {
             <p>Temple Members</p>
           </li>
         </ul>
-      </div>
+      </div> */}
       {/* <div className="image-container">
         <img src={temple} alt="Temple" />
       </div> */}
