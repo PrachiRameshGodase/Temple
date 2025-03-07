@@ -27,7 +27,7 @@ const HeroSection = () => {
                 <h1>
                     <span className="highlight">Om Sai Ram – </span>
                     Welcome to
-                    <span className="strong">  Sri Shirdi Sai Baba Temple </span>
+                    <span className="strong"> Sri Shirdi Sai Baba Temple </span>
                     Dwarakamayi, BJMole
                 </h1>
                 <div>

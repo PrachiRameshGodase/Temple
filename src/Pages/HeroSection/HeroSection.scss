@@ -38,8 +38,11 @@
       @media only screen and (max-width: 950px) {
         width: 100%;
       }
+      @media only screen and (max-width: 440px) {
+        font-size: 26px;
+        line-height: 29px;
+      }
       .highlight {
-        // border: 1px solid red !important;
         font-weight: 700;
         font-size: 56px;
         line-height: 67.2px;
@@ -50,39 +53,42 @@
           font-size: 42px;
           line-height: 48px;
         }
-        @media only screen and (max-width: 370px) {
-          font-size: 36px;
+        @media only screen and (max-width: 380px) {
+          font-size: 32px;
           line-height: 39px;
         }
-        @media only screen and (max-width: 340px) {
-          font-size: 30px;
+        // aaa
+        @media only screen and (max-width: 350px) {
+          font-size: 27px;
           line-height: 39px;
         }
       }
-
+      
       .highlight span {
         font-weight: 400;
         font-size: 56px;
         line-height: 67.2px;
         letter-spacing: -3px;
         color: #090909;
-        @media only screen and (max-width: 370px) {
-          font-size: 36px;
+        @media only screen and (max-width: 380px) {
+          font-size: 30px;
           line-height: 39px;
         }
         @media only screen and (max-width: 340px) {
           font-size: 20px !important;
+          // border: 1px solid red !important;
           line-height: 39px;
         }
       }
-
+      
       .strong {
+        // width: 100% !important;
         font-weight: 600;
         color: #000;
         
       }
     }
-
+    
     p {
       max-width: 600px;
       margin: 0 auto 20px;
