@@ -57,7 +57,7 @@
           font-size: 32px;
           line-height: 39px;
         }
-        // aaa
+
         @media only screen and (max-width: 350px) {
           font-size: 27px;
           line-height: 39px;
@@ -95,6 +95,7 @@
       color: #444;
       @media only screen and (max-width: 950px) {
         max-width: 100%;
+        margin-top: 10px;
       }
     }
 

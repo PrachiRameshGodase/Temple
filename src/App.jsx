@@ -13,6 +13,7 @@ import AboutUs from "./pages/about/AboutUs";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import Footer from "./components/Footer";
 import Donation from "./Pages/Donation/Donation";
+import DocumentsPage from "./Pages/DocumentsPage/DocumentsPage";
 
 function Loader() {
   return (
@@ -99,6 +100,14 @@ function App() {
             element={
               <>
                 <Donation />
+              </>
+            }
+          />
+           <Route
+            path="/documents"
+            element={
+              <>
+                <DocumentsPage />
               </>
             }
           />
